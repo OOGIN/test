@@ -1,0 +1,66 @@
+
+body{
+    height: 100vh;
+    background-image: url(photo-1517461403273-99cbad26cc34.avif);
+    background-size: 100vh;
+    z-index: -1;
+    position: absolute;
+    background-size: cover;
+    overflow: hidden;
+}
+.filt{
+    width: 100vh;
+    position: absolute;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+.snow{
+    width: 10px;
+    height: 10px;
+    opacity: 0;
+    background-color: snow;
+    border-radius: 50%;
+    animation:  snow 10s linear infinite;
+}
+.snow:nth-of-type(2n){
+    width: 7px;
+    height: 7px;
+    animation-duration: 7s;
+    animation-delay: 1s;
+}
+.snow:nth-of-type(2n+1){
+    animation-duration: 8s;
+    animation-delay: 2s;
+}
+.snow:nth-of-type(9n){
+    animation-duration: 9s;
+    animation-delay: 3s;
+}
+
+
+@keyframes snow{
+    0%{
+        opacity: 0;
+        transform: translateY(0);
+    }
+    20%{
+        opacity: 1;
+        transform: translate(-15px, 20vh);
+    }
+    40%{
+        opacity: 1;
+        transform: translate(15px, 40vh);
+    }
+    60%{
+        opacity: 1;
+        transform: translate(-15px, 60vh);
+    }
+    80%{
+        opacity: 1;
+        transform: translate(0px, 80vh);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(100vh);
+    }
+}
+

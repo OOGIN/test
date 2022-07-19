@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script> 
+        <script>
+            $(document).ready(function(){
+                $(".menu1").click(function(){
+                    $(".sub1").css({"display":"block"})
+                })
+                $(".menu1").click(function(){
+                    $(".sub").css({"display":"none"})
+                })
+                $(".menu2").click(function(){
+                    $(".sub2").css({"display":"block"})
+                })
+                $(".sub2").click(function(){
+                    $(this).css({"display":"none"})
+                })
+                $(".menu3").click(function(){
+                    $(".sub3").css({"display":"block"})
+                })
+                $(".sub3").click(function(){
+                    $(this).css({"display":"none"})
+                })
+                //$(".menu1").hover(function(){
+                //    $(".sub1").css({"display":"block"})
+                //},function(){
+                //    $(".sub1").css({"display":"none"})
+                //});
+                //$(".menu2").hover(function(){
+                //    $(".sub2").css({"display":"block"})
+                //},function(){
+                //    $(".sub2").css({"display":"none"})
+                //});
+                //$(".menu3").hover(function(){
+                //    $(".sub3").css({"display":"block"})
+                //},function(){
+                //    $(".sub3").css({"display":"none"})
+                //});
+            });
+        </script>
+        <style>
+            .a{
+                display: flex;
+            }
+
+            .menu1{
+                width: 200px;
+                border: 5px solid black;
+            }
+            .sub1{
+                display: none;
+            }
+            .menu2{
+                width: 200px;
+                margin-left: 10px;
+                border: 5px solid black;
+            }
+            .sub2{
+                display: none;
+            }
+            .menu3{
+                width: 200px;
+               margin-left: 10px;
+                border: 5px solid black;
+            }
+            .sub3{
+                display: none;
+            }
+        </style>
+    </head>
+    <body class="a">
+        <div >
+            <ul class="menu1">
+                <h1>메뉴1</h1>
+                <li class="sub1">1</li>
+                <li class="sub1">2</li>
+                <li class="sub1">3</li>
+                <li class="sub1">4</li>
+            </ul>
+        </div>
+        <div >
+            <ul class="menu2">
+                <h1>메뉴2</h1>
+                <li class="sub2">1</li>
+                <li class="sub2">2</li>
+                <li class="sub2">3</li>
+                <li class="sub2">4</li>
+            </ul>
+        </div>
+        <div >
+            <ul class="menu3">
+                <h1>메뉴3</h1>
+                <li class="sub3">1</li>
+                <li class="sub3">2</li>
+                <li class="sub3">3</li>
+                <li class="sub3">4</li>
+            </ul>
+        </div>
+    </body>
+</html>

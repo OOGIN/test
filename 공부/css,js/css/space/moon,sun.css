@@ -1,0 +1,156 @@
+body{
+    background-color: #061328;
+}
+
+.moon{
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 60px auto;
+    background-color: gold;
+    border-radius: 50%;
+}
+.hav{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #061328;
+    border-radius: 50%;
+    background-color: #061328;
+}
+.star{
+    color: white;
+}
+.s{
+    left: 100px;
+    top: 700px;
+    animation: hav 1.2s infinite;
+    position: absolute;
+}
+.s1{
+    left: 300px;
+    top: 100px;
+    animation: hav 1.5s infinite;
+    position: absolute;
+}
+.s3{
+    left: 500px;
+    top: 40px;
+    animation: hav 1s infinite;
+    position: absolute;
+}
+.s2{
+    left: 100px;
+    top: 250px;
+    animation: hav 1.6s infinite;
+    position: absolute;
+}
+.s4{
+    left: 340px;
+    top: 300px;
+    animation: hav 1.9s infinite;
+    position: absolute;
+}
+.s5{
+    left: 200px;
+    top: 350px;
+    animation: hav 1.2s infinite;
+    position: absolute;
+}
+
+.s6{
+    left: 480px;
+    top: 300px;
+    animation: hav 1.5s infinite;
+    position: absolute;
+}
+
+.s7{
+    left: 20px;
+    top: 450px;
+    animation: hav 1s infinite;
+    position: absolute;
+}
+.s8{
+    left: 180px;
+    top: 670px;
+    animation: hav 1.6s infinite;
+    position: absolute;
+}
+.s9{
+    left: 780px;
+    top: 550px;
+    animation: hav 1.9s infinite;
+    position: absolute;
+}
+.s10{
+    left: 980px;
+    top: 600px;
+    animation: hav 1.2s infinite;
+    position: absolute;
+}
+.s11{
+    left: 1480px;
+    top: 200px;
+    animation: hav 1.5s infinite;
+    position: absolute;
+}
+.s12{
+    left: 1380px;
+    top: 400px;
+    animation: hav 1s infinite;
+    position: absolute;
+}
+.s13{
+    left: 1140px;
+    top: 100px;
+    animation: hav 1.6s infinite;
+    position: absolute;
+}
+.s14{
+    left: 1058px;
+    top: 300px;
+    animation: hav 1.9s infinite;
+    position: absolute;
+}
+.s15{
+    left: 400px;
+    top: 500px;
+    animation: hav 1.2s infinite;
+    position: absolute;
+}
+.s16{
+    left: 1200px;
+    top: 450px;
+    animation: hav 1.5s infinite;
+    position: absolute;
+}
+.s17{
+    left: 1000px;
+    top: 350px;
+    animation: hav 1s infinite;
+    position: absolute;
+}
+.btn {
+    width: 50px;
+    height: 20px;
+    margin: 60px auto;
+    margin-top: 300px;
+    text-align: center;
+    background-color: rgb(63, 177, 222);
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+.btn a{
+    text-decoration: none;
+    color: rgb(255, 255, 0);
+    font-weight: 800;
+}
+
+@keyframes hav{
+    0%,100%{
+        transform: scale(0);
+    }
+    50%{
+        transform: scale(1);
+    }
+}

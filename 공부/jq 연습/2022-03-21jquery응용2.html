@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script>
+        $(document).ready(function(){ // 기본 시작하는 구조
+           $(".cooking > img").click(function(){
+               $(this).attr("src","2.jpg")
+           })
+           
+        });
+    </script>
+    <style>
+        .btn{
+            width: 100px;
+            height: 60px;
+            border: 2px black solid;
+            text-align: center;
+            background-color: palevioletred ;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="btn"><p>메뉴</p></div>
+    <div class="cooking"><img src="0.jpg"></div>
+    
+</body>
+</html>

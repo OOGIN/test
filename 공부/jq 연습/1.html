@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <style>
+            .hambtn{
+                position: relative;
+                transition: .3s ease-in-out;
+                width: 45px;
+                height: 34px;
+            }
+            .hambtn span{
+                position: absolute;
+                height: 8px;
+                border-radius: 4px;
+                width: 100%;
+                background: #3d4146;
+                top:0
+            }
+            .hambtn span:nth-child(1){
+                top:0;
+            }
+
+           
+
+            .hambtn span:nth-child(2),.hambtn span:nth-child(3){
+                top: 13px;
+            }
+            
+            .hambtn span:nth-child(4){
+                top:26px;
+            }
+            .hambtn.active span:nth-child(1),.hambtn.active span:nth-child(4){
+             opacity: 0;
+            }
+
+            .hambtn.active span:nth-child(2){
+                transform: rotate(45deg);
+            }
+
+            .hambtn.active span:nth-child(3){
+                transform: rotate(-45deg);
+            }
+        </style>
+    </head>
+    <body>
+        <a href="#" class="hambtn">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </body>
+</html>

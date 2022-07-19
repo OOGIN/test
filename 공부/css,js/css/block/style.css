@@ -1,0 +1,396 @@
+*{
+    margin: 0px auto;
+}
+body{
+    background-color: black;
+      background-image: url('hans-ott-AxSaRriVy0E-unsplash.jpg');
+      background-size: cover;
+}
+
+.block{
+    margin-top: 30px;
+    width: 350px;
+    height: 600px;
+    border: 2px solid white;
+    /* background-image: url('photo-1654945127986-eead644df12f.avif'); */
+    background-size: cover;
+    z-index: -1;
+}
+.gld{
+    width: 350px;
+    height: 600px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.591);
+}
+.move{
+    margin-left: -320px;
+}
+.move1{
+    width: 30px;
+    height: 10px;
+    animation: m1 1s infinite;
+    background-color: rgb(255, 0, 0);
+}
+.move2{
+    width: 30px;
+    height: 10px;
+    animation: m1 1.1s infinite;
+    background-color: rgb(255, 25, 0);
+}
+.move3{
+    width: 30px;
+    height: 10px;
+    animation: m1 1.2s infinite;
+    background-color: rgb(255, 50, 0);
+}
+.move4{
+    width: 30px;
+    height: 10px;
+    animation: m1 1.3s infinite;
+    background-color: rgb(255,75, 0);
+}
+.move5{
+    width: 30px;
+    height: 10px;
+    animation: m1 1.4s infinite;
+    background-color: rgb(255, 100, 0);
+}
+.move6{
+    width: 30px;
+    height: 10px;
+    animation: m1 1.5s infinite;
+    background-color: rgb(255, 125, 0);
+}
+.move7{
+    width: 30px;
+    height: 10px;
+    animation: m1 1.6s infinite;
+    background-color: rgb(255, 150, 0);
+}
+.move8{
+    width: 30px;
+    height: 10px;
+    animation: m1 1.7s infinite;
+    background-color: rgb(255, 175, 0);
+}
+.move9{
+    width: 30px;
+    height: 10px;
+    animation: m1 1.8s infinite;
+    background-color: rgb(255, 200, 0);
+}
+.move10{
+    width: 30px;
+    height: 10px;
+    animation: m1 1.9s infinite;
+    background-color: rgb(255, 225, 0);
+}
+.move11{
+    width: 30px;
+    height: 10px;
+    animation: m1 2s infinite;
+    background-color: rgb(255, 250, 0);
+}
+.move12{
+    width: 30px;
+    height: 10px;
+    animation: m1 2.1s infinite;
+    background-color: rgb(225, 250, 0);
+}
+.move13{
+    width: 30px;
+    height: 10px;
+    animation: m1 2.2s infinite;
+    background-color: rgb(200, 250, 0);
+}
+.move14{
+    width: 30px;
+    height: 10px;
+    animation: m1 2.3s infinite;
+    background-color: rgb(175, 255, 0);
+}
+.move15{
+    width: 30px;
+    height: 10px;
+    animation: m1 2.4s infinite;
+    background-color: rgb(150, 255, 0);
+}
+.move16{
+    width: 30px;
+    height: 10px;
+    animation: m1 2.5s infinite;
+    background-color: rgb(125, 255, 0);
+}
+.move17{
+    width: 30px;
+    height: 10px;
+    animation: m1 2.6s infinite;
+    background-color: rgb(100, 255, 0);
+}
+.move18{
+    width: 30px;
+    height: 10px;
+    animation: m1 2.7s infinite;
+    background-color: rgb(75, 255, 0);
+}
+.move19{
+    width: 30px;
+    height: 10px;
+    animation: m1 2.8s infinite;
+    background-color: rgb(50, 255, 0);
+}
+.move20{
+    width: 30px;
+    height: 10px;
+    animation: m1 2.9s infinite;
+    background-color: rgb(25, 255, 0);
+}
+.move21{
+    width: 30px;
+    height: 10px;
+    animation: m1 3s infinite;
+    background-color: rgb(0, 255, 0);
+}
+.move22{
+    width: 30px;
+    height: 10px;
+    animation: m1 3.1s infinite;
+    background-color: rgb(0, 255, 25);
+}
+.move23{
+    width: 30px;
+    height: 10px;
+    animation: m1 3.2s infinite;
+    background-color: rgb(0, 255, 50);
+}
+.move24{
+    width: 30px;
+    height: 10px;
+    animation: m1 3.3s infinite;
+    background-color: rgb(0, 255, 75);
+}
+.move25{
+    width: 30px;
+    height: 10px;
+    animation: m1 3.4s infinite;
+    background-color: rgb(0, 255, 100);
+}
+.move26{
+    width: 30px;
+    height: 10px;
+    animation: m1 3.5s infinite;
+    background-color: rgb(0, 255, 125);
+}
+.move27{
+    width: 30px;
+    height: 10px;
+    animation: m1 3.6s infinite;
+    background-color: rgb(0, 255, 150);
+}
+.move28{
+    width: 30px;
+    height: 10px;
+    animation: m1 3.7s infinite;
+    background-color: rgb(0, 255, 175);
+}
+.move29{
+    width: 30px;
+    height: 10px;
+    animation: m1 3.8s infinite;
+    background-color: rgb(0, 255, 200);
+}
+.move30{
+    width: 30px;
+    height: 10px;
+    animation: m1 3.9s infinite;
+    background-color: rgb(0, 255, 225);
+}
+.move31{
+    width: 30px;
+    height: 10px;
+    animation: m1 4s infinite;
+    background-color: rgb(0, 255, 250);
+}
+.move32{
+    width: 30px;
+    height: 10px;
+    animation: m1 4.1s infinite;
+    background-color: rgb(0, 225, 255);
+}
+.move33{
+    width: 30px;
+    height: 10px;
+    animation: m1 4.2s infinite;
+    background-color: rgb(0, 200, 250);
+}
+.move34{
+    width: 30px;
+    height: 10px;
+    animation: m1 4.3s infinite;
+    background-color: rgb(0, 175, 250);
+}
+.move35{
+    width: 30px;
+    height: 10px;
+    animation: m1 4.4s infinite;
+    background-color: rgb(0, 150, 250);
+}
+.move36{
+    width: 30px;
+    height: 10px;
+    animation: m1 4.5s infinite;
+    background-color: rgb(0, 125, 250);
+}
+.move37{
+    width: 30px;
+    height: 10px;
+    animation: m1 4.6s infinite;
+    background-color: rgb(0, 100, 250);
+}
+.move38{
+    width: 30px;
+    height: 10px;
+    animation: m1 4.7s infinite;
+    background-color: rgb(0, 75, 250);
+}
+.move39{
+    width: 30px;
+    height: 10px;
+    animation: m1 4.8s infinite;
+    background-color: rgb(0, 50, 250);
+}
+.move40{
+    width: 30px;
+    height: 10px;
+    animation: m1 4.9s infinite;
+    background-color: rgb(0, 25, 250);
+}
+.move41{
+    width: 30px;
+    height: 10px;
+    animation: m1 5s infinite;
+    background-color: rgb(0, 0, 250);
+}
+.move42{
+    width: 30px;
+    height: 10px;
+    animation: m1 5.1s infinite;
+    background-color: rgb(25, 0, 255);
+}
+.move43{
+    width: 30px;
+    height: 10px;
+    animation: m1 5.2s infinite;
+    background-color: rgb(50, 0, 255);
+}
+.move44{
+    width: 30px;
+    height: 10px;
+    animation: m1 5.3s infinite;
+    background-color: rgb(75, 0, 255);
+}
+.move45{
+    width: 30px;
+    height: 10px;
+    animation: m1 5.4s infinite;
+    background-color: rgb(100, 0, 255);
+}
+.move46{
+    width: 30px;
+    height: 10px;
+    animation: m1 5.5s infinite;
+    background-color: rgb(125, 0, 255);
+}
+.move47{
+    width: 30px;
+    height: 10px;
+    animation: m1 5.6s infinite;
+    background-color: rgb(150, 0, 255);
+}
+.move48{
+    width: 30px;
+    height: 10px;
+    animation: m1 5.7s infinite;
+    background-color: rgb(175, 0, 255);
+}
+.move49{
+    width: 30px;
+    height: 10px;
+    animation: m1 5.8s infinite;
+    background-color: rgb(200, 0, 255);
+}
+.move50{
+    width: 30px;
+    height: 10px;
+    animation: m1 5.9s infinite;
+    background-color: rgb(225, 0, 255);
+}
+.move51{
+    width: 30px;
+    height: 10px;
+    animation: m1 6s infinite;
+    background-color: rgb(250, 0, 255);
+}
+.move52{
+    width: 30px;
+    height: 10px;
+    animation: m1 6.1s infinite;
+    background-color: rgb(255, 0, 225);
+}
+.move53{
+    width: 30px;
+    height: 10px;
+    animation: m1 6.2s infinite;
+    background-color: rgb(255, 0, 200);
+}
+.move54{
+    width: 30px;
+    height: 10px;
+    animation: m1 6.3s infinite;
+    background-color: rgb(255, 0, 175);
+}
+.move55{
+    width: 30px;
+    height: 10px;
+    animation: m1 6.4s infinite;
+    background-color: rgb(255, 0, 150);
+}
+.move56{
+    width: 30px;
+    height: 10px;
+    animation: m1 6.5s infinite;
+    background-color: rgb(255, 0, 125);
+}
+.move57{
+    width: 30px;
+    height: 10px;
+    animation: m1 6.6s infinite;
+    background-color: rgb(255, 0, 100);
+}
+.move58{
+    width: 30px;
+    height: 10px;
+    animation: m1 6.7s infinite;
+    background-color: rgb(255, 0, 75);
+}
+.move59{
+    width: 30px;
+    height: 10px;
+    animation: m1 6.8s infinite;
+    background-color: rgb(255, 0, 50);
+}
+.move60{
+    width: 30px;
+    height: 10px;
+    animation: m1 6.9s infinite;
+    background-color: rgb(255, 0, 25);
+}
+
+@keyframes m1{
+    0%,100%{
+        transform: translate(0%);
+    }
+    50%{
+        transform:  translate(320px);
+    }
+}
