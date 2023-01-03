@@ -75,7 +75,7 @@ body{
     left: 0;
     width: 50%;
     height: 100%;
-    background:linear-gradient(to top, transparent, rgba(0, 0, 255, 0.445));
+    background:linear-gradient(to top, transparent, rgba(0, 217, 255, 0.445));
     background-size: 100px 180px;
     background-repeat: no-repeat;
     border-top-left-radius: 100px;
@@ -88,7 +88,7 @@ body{
     left: 0;
     width: 50%;
     height: 100%;
-    background:linear-gradient(to top, transparent, rgb(255, 255, 0, 0.445));
+    background:linear-gradient(to top, transparent, rgba(81, 255, 0, 0.445));
     background-size: 100px 180px;
     background-repeat: no-repeat;
     border-top-left-radius: 100px;
@@ -115,19 +115,19 @@ body{
     transform: translateX(-50%);
     width: 20px;
     height: 20px;
-    background: blue;
+    background: rgb(0, 255, 255);
     border-radius: 50%;
     z-index: 10;
-    box-shadow: 0 0 10px blue,
-    0 0 30px blue,
-    0 0 40px blue,
-    0 0 50px blue,
-    0 0 60px blue,
-    0 0 70px blue,
-    0 0 80px blue,
-    0 0 90px blue,
-    0 0 20px blue,
-    0 0 100px blue;
+    box-shadow: 0 0 10px rgb(0, 255, 255),
+    0 0 30px rgb(0, 255, 255),
+    0 0 40px rgb(0, 255, 255),
+    0 0 50px rgb(0, 255, 255),
+    0 0 60px rgb(0, 255, 255),
+    0 0 70px rgb(0, 255, 255),
+    0 0 80px rgb(0, 255, 255),
+    0 0 90px rgb(0, 255, 255),
+    0 0 20px rgb(0, 255, 255),
+   0 0 100px rgb(0, 255, 255);
 }
 .container .loder1::after{
     content: '';
@@ -137,19 +137,19 @@ body{
     transform: translateX(-50%);
     width: 20px;
     height: 20px;
-    background: yellow;
+    background: rgb(80, 255, 0);
     border-radius: 50%;
     z-index: 10;
-    box-shadow: 0 0 10px yellow,
-    0 0 20px yellow,
-    0 0 30px yellow,
-    0 0 40px yellow,
-    0 0 50px yellow,
-    0 0 60px yellow,
-    0 0 70px yellow,
-    0 0 80px yellow,
-    0 0 90px yellow,
-   0 0 100px yellow;
+    box-shadow: 0 0 10px rgb(80, 255, 0),
+    0 0 20px rgb(80, 255, 0),
+    0 0 30px rgb(80, 255, 0),
+    0 0 40px rgb(80, 255, 0),
+    0 0 50px rgb(80, 255, 0),
+    0 0 60px rgb(80, 255, 0),
+    0 0 70px rgb(80, 255, 0),
+    0 0 80px rgb(80, 255, 0),
+    0 0 90px rgb(80, 255, 0),
+   0 0 100px rgb(80, 255, 0);
 }
 .container .loder2::after{
     content: '';
